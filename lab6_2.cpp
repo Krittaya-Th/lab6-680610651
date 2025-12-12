@@ -1,7 +1,14 @@
 #include <iostream>
-
+#include <c.math>
 using namespace std;
-
+double deg2rad(double d){
+    double r=((d/360)*(2*M_PI));
+    return r;
+}
+double rad2deg(double r){
+    double d=((r/(2*M_PI))*360);
+}
+findXComponent
 int main(){
     double l1,l2,a1,a2,xcomp,ycomp,result_vec_length,result_vec_direction;
     cout << "Enter length of the first vector: ";
