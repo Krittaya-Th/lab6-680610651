@@ -22,8 +22,10 @@ double pythagoras(double x,double y){
     return p;
 }
 void showResult(double p,double c){
+    cout <<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"<<"\n";
     cout <<"Length of the resultant vector = "<<p<<"\n";
-    cout <<"Direction of the resultant vector (deg) = "<<c;
+    cout <<"Direction of the resultant vector (deg) = "<<c<<"\n";
+    cout <<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"<<"\n";
 }
 int main(){
     double l1,l2,a1,a2,xcomp,ycomp,result_vec_length,result_vec_direction;
@@ -45,3 +47,4 @@ int main(){
 
     showResult(result_vec_length,result_vec_direction);
 }
+
